@@ -1,0 +1,12 @@
+/* TODO */
+button{
+    border-radius:  8px;
+    background-color: plum;
+    color: white;
+    cursor: pointer;
+    border-color: rgb(240, 98, 240);
+}
+button:hover{
+    background-color: purple;
+    border-color: rgb(61, 3, 61);
+}

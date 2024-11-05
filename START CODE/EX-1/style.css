@@ -1,0 +1,55 @@
+body {
+    background: gray;
+    font-family: sans-serif;
+}
+.contianer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.box1,.box2,.box3{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+button{
+    border-radius: 30px;
+    border: none;
+    padding: 10px 15px;
+    font-weight: 400;
+}
+
+ .button1{
+    background-color: rgb(21, 117, 80);
+    border: rgb(5, 89, 41);
+    color: white;
+    cursor: pointer;
+}
+
+.button2{
+    background-color: rgb(214, 130, 35);
+    border: rgb(132, 77, 6);
+    cursor: pointer;
+}
+
+.button3{
+    background-color: rgb(166, 19, 159);
+    border: rgb(89, 5, 81);
+    cursor: pointer;
+}
+
+ .button1:hover{
+    background-color: rgb(2, 22, 22);
+}
+
+.button2:hover{
+    background-color: rgb(57, 29, 3);
+}
+
+.button3:hover{
+    background-color: rgb(41, 4, 29);
+}

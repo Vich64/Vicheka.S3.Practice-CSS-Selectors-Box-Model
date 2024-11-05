@@ -1,0 +1,118 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 600px;
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.background {
+    height: 200px;
+    background-color: #3b5998;
+    background-image: url('img/moon.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #fff;
+    background-image: url('img/fpf.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 5px solid white;
+    position: absolute;
+    top: 170px;
+    left: 15%;
+    transform: translateX(-50%);
+}
+
+.username {
+    text-align: center;
+    margin-right: 200px;
+    margin-top: 30px;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 0px;
+}
+
+.friends{
+    text-align: center;
+    margin-right: 170px;
+    color: gray;
+    margin-top: 0px;
+}
+
+.story, .editP, .more{
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.story{
+    padding: 5px 10px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+}
+
+.editP {
+    padding: 5px 10px;
+    width: 90px;
+    color: white;
+    background-color: gray;
+}
+
+.more{
+    color: white;
+    padding-top: 8px;
+    padding-left: 10px;
+    width: 20px;
+    background-color: gray;
+}
+
+.fpfp img {
+    margin-top: 10px;
+    margin-bottom: -28px;
+    margin-left: 160px;
+    height: auto;
+    width: 25%;
+}
+.bar{
+    margin-right: 2px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 4px;
+}
+
+.row-line{
+    margin-left: 25px;
+    width: 550px;
+    height: 1px;
+    background-color: #c4c0c0;
+    margin-top: 20px;
+}
+
+.about{
+    margin-left: 25px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 10px;
+    color: gray;
+    margin-bottom: 10px;
+}
